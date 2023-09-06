@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body class="container-fluid">
+<body class="conteiner-fluid">
 
     <!-- NavBar -->
     <header class="navbar navbar-expand-lg fondo">
-         <div class="container-fluid">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="logoOh" src="../img/logo.png" alt="Logo Ohana">
             </a>
-            <button class="navbar-toggler colorHambur" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler colorHambur" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="collapse navbar-collapse" id="navbarNav">
@@ -44,45 +45,42 @@
                     <li class="nav-item  miLink">
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
-                    
-                   
+
+
                 </ul>
             </nav>
-            <a class="tienda" href="https://instagram.com/luchys.indumentari?igshid=MzRlODBiNWFlZA==" target="_blank"><img
-                class="logoTienda" src="../img/tiendalogo.png" alt="Logo de tienda"> Luchys Ind</a>
+            <a class="tienda" href="https://instagram.com/luchys.indumentari?igshid=MzRlODBiNWFlZA=="
+                target="_blank"><img class="logoTienda" src="../img/tiendalogo.png" alt="Logo de tienda"> Luchys Ind</a>
         </div>
 
     </header>
 
-    <main class="margenes">
-        
-        <form>
-            <h2>Formulario de Contacto</h2>
+    
+    <div class="mb-3">
+        <h2>Formulario de contacto</h2>
 
-            <label for="Nombre"> Nombre</label>
-            <input class="btnForm" type="text" id="Nombre" placeholder="Ej. Juan">
+        <label for="exampleFormControlInput1" class="form-label apellido">Apellidos</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1 apellido" placeholder="Perez">
 
+        <label for="exampleFormControlInput1" class="form-label nombre">Nombres</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1 nombre" placeholder="Juan">
 
-            <label for="Apellido">Apellido</label>
-            <input class="btnForm" type="text" id="Apellido" placeholder="Ej. Lopez">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1 correo electronico"
+            placeholder="Juan@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
+        <input class="btnForm botones" type="submit">
+        <input class="btnForm botones" type="reset" value="Borrar">
+    </div>
 
-            <label for="correo Electronico">Correo Electronico</label>
-            <input class="btnForm" type="email" id="correo Electronico" placeholder="Ej. Juanlopez@gmail.com">
-
-
-
-            <textarea class="btnForm name=" id="" cols="30" rows="10" placeholder="Dejanos tu consulta"></textarea>
-
-            <input class="btnForm botones" type="submit">
-            <input class="btnForm botones" type="reset" value="Borrar">
-
-        </form>
-        
-    </main>
 
     <div><a href="https://api.whatsapp.com/send?phone=541167064264" target="_blank"><img class="logoWp"
-        src="../img/logoWhatsapp.png" alt="Logo Wsp"> </a>
+                src="../img/logoWhatsapp.png" alt="Logo Wsp"> </a>
+    </div>
 
 
     <!-- JS BS -->
@@ -91,9 +89,9 @@
         crossorigin="anonymous"></script>
 </body>
 
-<footer><a href="https://instagram.com/ohanafitnesspilar?igshid=MzRlODBiNWFlZA==" target="_blank"> <img
-    class="logoIg" src="../img/intalogo.png" alt="Logo instagram"></a>
+<footer><a href="https://instagram.com/ohanafitnesspilar?igshid=MzRlODBiNWFlZA==" target="_blank"> <img class="logoIg"
+            src="../img/intalogo.png" alt="Logo instagram"></a>
 
-<a href="https://api.whatsapp.com/send?phone=541167064264" target="_blank"><img class="logoW"
-    src="../img/logow-byn.png" alt="Logo whatsapp"> </a>
+    <a href="https://api.whatsapp.com/send?phone=541167064264" target="_blank"><img class="logoW"
+            src="../img/logow-byn.png" alt="Logo whatsapp"> </a>
 </footer>

@@ -183,9 +183,6 @@ footer {
 
 /* FORMULARIO DE CONTACTO*/
 
-form {
-    margin-top: 20px;
-} 
 
 label {
     display: block;
@@ -224,87 +221,16 @@ h4 {
     color: #737070;
 }
 
-/* HORARIOS */
-
-
- .contenedorSec { 
-    display: grid;
-    grid-template-areas: 
-    "sectionHr lunes martes miercoles jueves viernes sabado"
-    "sectionHr lunes martes miercoles jueves viernes sabado"
-    "sectionHr lunes martes miercoles jueves viernes sabado"
-    "sectionHr lunes martes miercoles jueves viernes sabado"
-    "sectionHr lunes martes miercoles jueves viernes sabado"
-    "sectionHr lunes martes miercoles jueves viernes sabado"
-    ;
-
-    padding:5% 5% 5%;
+.contHorario {
+    display: block;
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
 }
 
-
-
-.sectionHr {
-    background-color: black;
-    grid-area: sectionHr;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.espacio {
+    margin-bottom: 30px;
 }
 
-.lun {
-    background-color: #171717;
-    grid-area: lunes;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.martes {
-    background-color: #171717;
-    grid-area: martes;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.miercoles {
-    background-color: #171717;
-    grid-area: miercoles;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.jueves{
-    background-color: #171717;
-    grid-area: jueves;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.viernes{
-    background-color:#171717; 
-    grid-area: viernes;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.sabado {
-    background-color:#171717;
-    grid-area: sabado;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- } 
  
 
 
