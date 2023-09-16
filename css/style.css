@@ -9,7 +9,7 @@ header
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(../img/gris.jpg);  
+    background-image: url(../img/gris.jpg); 
     position: sticky !important;
     top: 0;
     border-bottom: 1px solid aliceblue;
@@ -26,11 +26,7 @@ header
     cursor: pointer;
 }
 
-.fondo {
-    background-size: cover;
-    /* background-image: url(../img/gris.jpg); */
-    
-}
+
 
 .imgPresentacion {
     width: 900px;
@@ -43,9 +39,10 @@ header
  }
 body {
     background-size: cover;
-     background-image: url(../img/gris.jpg);  
+    background-image: url(../img/gris.jpg);   
     font-family: 'Roboto', sans-serif;
-    /* font-size: 15px; */
+    
+    
     
 }
 
@@ -73,6 +70,15 @@ a {
     width: 60px;
 }
 
+.tienda:hover {
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
+}
+
+.tienda:active {
+    transform: translateY(3px);
+}
+
 h1,
 h2,
 h3 {
@@ -81,6 +87,8 @@ h3 {
     padding: 10px;
     font-weight: bold;
 }
+
+
 
 p {
     color: aliceblue;
@@ -119,6 +127,14 @@ p {
     width: 350px;
 }
 
+.botones:hover {
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
+}
+
+.botones:active {
+    transform: translateY(3px);
+}
 
 /* MAPA */
 
@@ -149,6 +165,11 @@ footer {
 .logoW {
     width: 30px;
 
+}
+
+.logoFb {
+    width: 30px;
+    margin-left: 20px;
 }
 
 /* CARDS CLASES */
@@ -192,6 +213,16 @@ footer {
     width: 150px !important;
 
 }
+
+.btnInscripcion:hover {
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
+}
+
+.btnInscripcion:active {
+    transform: translateY(3px);
+}
+
 
 /* GALERIA */
 
@@ -252,7 +283,6 @@ label {
 
 
 
-
 /* COSTOS */
 
 h4 {
@@ -270,7 +300,19 @@ h4 {
 }
 
  
-
+.hola {
+    font-size: 2em;
+    color: aliceblue;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: aliceblue;
+}
+strong {
+    font-size: 1.2em;
+    color: #FF5733;
+}
 
 
   
