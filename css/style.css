@@ -141,11 +141,14 @@ p {
 .mapa, 
 .ubi {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: start;
 }
 
-
+iframe {
+    width: 100%;
+    height: 300px;
+}
 
 /* FOOTER */
 
