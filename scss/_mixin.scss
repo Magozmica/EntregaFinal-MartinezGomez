@@ -1,0 +1,10 @@
+@mixin parrafos {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+@mixin botones {
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
+}
+

@@ -1,0 +1,112 @@
+@mixin botones {
+  @include botones;
+}
+
+/*BTN TIENDA*/
+
+.tienda {
+    background-color: #157978;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  .logoTienda {
+    width: 60px;
+  }
+  
+  .tienda {
+    &:hover {
+      @include botones;
+    }
+  
+    &:active {
+      transform: translateY(3px);
+    }
+  }
+  
+  /* btn inscripción */
+  
+  .boton {
+    background-color: #da5d27;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .boton {
+    &:hover {
+      @include botones;
+    }
+  
+    &:active {
+      transform: translateY(3px);
+    }
+  }
+  
+  
+  .botones {
+    &:hover {
+      @include botones;
+    }
+  
+    &:active {
+      transform: translateY(3px);
+    }
+  }
+  
+  .btnInscripcion {
+    display: inline-block;
+    background-color: #157978;
+    color: aliceblue;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 150px !important;
+  
+    &:hover {
+      @include botones;;
+    }
+  
+    &:active {
+      transform: translateY(3px);
+    }
+  }
+  
+  /*btn formulario*/
+  
+  .btnForm {
+    display: block;
+    width: 700px;
+    padding: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .botones {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100px !important;
+  }
+  
+

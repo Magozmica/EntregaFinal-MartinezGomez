@@ -1,0 +1,86 @@
+@mixin parrafos {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/gris.jpg);
+    position: sticky !important;
+    top: 0;
+    border-bottom: 1px solid aliceblue;
+    z-index: 1000;
+  }
+  
+  .colorHambur {
+    background-color: $color-principal;
+  }
+  
+  .logoOh {
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .imgPresentacion {
+    width: 900px;
+    padding: 2% 5% 1% 5%;
+  }
+  
+  .hola {
+    font-size: 2em;
+    color: $parrafos;;
+  }
+  
+  p {
+    @include parrafos;
+    color: $parrafos;
+  }
+  
+  strong {
+    font-size: 1.2em;
+    color: #FF5733;
+  }
+  
+  body {
+    background-size: cover;
+    background-image: url(../img/gris.jpg);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    color: rgb(250, 250, 250) !important;
+  }
+  
+  .miLink:hover {
+    background-color: #157978;
+    color: rgb(250, 250, 250);
+  }
+
+  h1, h2, h3 {
+    color: $color-principal;
+      margin: 10px;
+      padding: 10px;
+      font-weight: bold;
+    }
+    
+    .ultimasDos {
+      display: flex;
+      justify-content: center;
+    }
+    
+    p {
+      color: $parrafos
+    }
+    
+    .subTit {
+      color: $parrafos;
+      margin: 10px;
+      padding: 10px;
+    }

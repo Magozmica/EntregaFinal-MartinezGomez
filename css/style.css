@@ -1,326 +1,298 @@
-*{margin: 10;
-    padding: 10;}
-
-
+@charset "UTF-8";
 /* HEADER */
-
-header
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(../img/gris.jpg); 
-    position: sticky !important;
-    top: 0;
-    border-bottom: 1px solid aliceblue;
-    z-index: 1000;
-    
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../img/gris.jpg);
+  position: sticky !important;
+  top: 0;
+  border-bottom: 1px solid aliceblue;
+  z-index: 1000;
 }
 
 .colorHambur {
-    background-color: #349796;
+  background-color: #349796;
 }
 
 .logoOh {
-    width: 150px;
-    cursor: pointer;
+  width: 150px;
+  cursor: pointer;
 }
 
-
-
 .imgPresentacion {
-    width: 900px;
-    padding: 2% 5% 1% 5%;
-    
- }
+  width: 900px;
+  padding: 2% 5% 1% 5%;
+}
 
- .hola {
-    color: aliceblue;
- }
+.hola {
+  font-size: 2em;
+  color: aliceblue;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: aliceblue;
+}
+
+strong {
+  font-size: 1.2em;
+  color: #FF5733;
+}
+
 body {
-    background-size: cover;
-    background-image: url(../img/gris.jpg);   
-    font-family: 'Roboto', sans-serif;
-    
-    
-    
+  background-size: cover;
+  background-image: url(../img/gris.jpg);
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold !important;
-    color: rgb(250, 250, 250) !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  color: rgb(250, 250, 250) !important;
 }
 
 .miLink:hover {
-    background-color: #157978;
-    color:rgb(250, 250, 250) ;    
-}
-/* TIENDA */
-
-.tienda {
-    background-color: #157978;
-    padding: 3px 5px;
-    border: none;
-    border-radius: 30px
+  background-color: #157978;
+  color: rgb(250, 250, 250);
 }
 
-.logoTienda {
-    width: 60px;
-}
-
-.tienda:hover {
-    transform: translateY(-3px);
-    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
-}
-
-.tienda:active {
-    transform: translateY(3px);
-}
-
-h1,
-h2,
-h3 {
-    color: #349796;
-    margin: 10px;
-    padding: 10px;
-    font-weight: bold;
+h1, h2, h3 {
+  color: #349796;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 .ultimasDos {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 p {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .subTit {
-    color: aliceblue;
-    margin: 10px;
-    padding: 10px;
+  color: aliceblue;
+  margin: 10px;
+  padding: 10px;
 }
 
-.margenes {
-    margin: 10px;
-    padding: 10px;
-}
-
-.logoWp {
-    width: 100px;
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-
-}
-
-/* Botón de inscripción */
-
-.boton {
-    background-color: #da5d27;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 19px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    width: 350px;
-    display: flex;
-    justify-content: center;
-}
-
-.botones:hover {
-    transform: translateY(-3px);
-    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
-}
-
-.botones:active {
-    transform: translateY(3px);
+* {
+  margin: 10;
+  padding: 10;
 }
 
 /* MAPA */
-
-.mapa, 
-.ubi {
-    display: flex;
-    justify-content: start;
-    align-items: start;
+.mapa, .ubi {
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
 iframe {
-    width: 100%;
-    height: 300px;
-}
-
-/* FOOTER */
-
-footer {
-    margin: 20px;
-    padding: 20px;
-    border-top: 1px solid aliceblue;
-    text-align: center;
-    justify-content: space-between;
-}
-
-.logoIg {
-    width: 30px;
-    margin-right: 20px;
-}
-
-.logoW {
-    width: 30px;
-
-}
-
-.logoFb {
-    width: 30px;
-    margin-left: 20px;
+  width: 100%;
+  height: 300px;
 }
 
 /* CARDS CLASES */
-
 .letra {
-    color: rgb(250, 250, 250)
+  color: rgb(250, 250, 250);
 }
 
 .titulo {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .cardColor {
-    background-color: black
+  background-color: black;
 }
 
-.btnColor { 
-    background-color: #157978;
-    color: aliceblue;
+.btnColor {
+  background-color: #157978;
+  color: aliceblue;
 }
 
 .cardClases {
-    position: relative !important;
+  position: relative !important;
 }
 
 .contCard {
-
-    margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
-
-.btnInscripcion {
-    display: inline-block;
-    background-color: #157978;
-    color: aliceblue;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    width: 150px !important;
-
-}
-
-.btnInscripcion:hover {
-    transform: translateY(-3px);
-    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
-}
-
-.btnInscripcion:active {
-    transform: translateY(3px);
-}
-
 
 /* GALERIA */
-
 .imgAlumnos {
-    display: block;
-    width: 50%;
-    padding: 50px 50px 50px 50px;
-
+  display: block;
+  width: 50%;
+  padding: 50px 50px 50px 50px;
 }
 
 /* FORMULARIO DE CONTACTO*/
-
 .borderCont {
-    padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
-input,
-textarea {
-    display: block;
-    width: 325px !important; 
-    padding: 10px;
-    border: 2px solid aliceblue;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
+input, textarea {
+  display: block;
+  width: 325px !important;
+  padding: 10px;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: rgb(250, 250, 250);
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(250, 250, 250);
 }
 
-.btnForm
- {
-    display: block;
-    width: 700px;
-    padding: 10px;
-    border: 2px solid aliceblue;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.botones {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    width: 100px !important;
-}
-
-
-
-/* COSTOS */
-
-h4 {
-    color: #737070;
+/*HORARIOS*/
+.espacio {
+  margin-bottom: 30px;
 }
 
 .contHorario {
-    display: block;
-    border-radius: 10px;
-    padding: 50px 50px 50px 50px;
+  display: block;
+  border-radius: 10px;
+  padding: 80px 80px 80px 80px;
 }
 
-.espacio {
-    margin-bottom: 30px;
+/*BTN TIENDA*/
+.tienda {
+  background-color: #157978;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 30px;
 }
 
- 
-.hola {
-    font-size: 2em;
-    color: aliceblue;
-}
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: aliceblue;
-}
-strong {
-    font-size: 1.2em;
-    color: #FF5733;
+.logoTienda {
+  width: 60px;
 }
 
+.tienda:hover {
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.tienda:active {
+  transform: translateY(3px);
+}
 
-  
+/* btn inscripción */
+.boton {
+  background-color: #da5d27;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.boton:hover {
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.boton:active {
+  transform: translateY(3px);
+}
+
+.botones:hover {
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.botones:active {
+  transform: translateY(3px);
+}
+
+.btnInscripcion {
+  display: inline-block;
+  background-color: #157978;
+  color: aliceblue;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 150px !important;
+}
+.btnInscripcion:hover {
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.btnInscripcion:active {
+  transform: translateY(3px);
+}
+
+/*btn formulario*/
+.btnForm {
+  display: block;
+  width: 700px;
+  padding: 10px;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100px !important;
+}
+
+/* FOOTER */
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid aliceblue;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.logoIg {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.logoW {
+  width: 30px;
+}
+
+.logoFb {
+  width: 30px;
+  margin-left: 20px;
+}
+
+/*TIENDA*/
+.margenes {
+  margin: 10px;
+  padding: 10px;
+}
+
+.logoWp {
+  width: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
