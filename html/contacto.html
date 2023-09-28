@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto 🏋🏻 Ohana Fitness</title>
-    <meta name="description" content="Un lugar que es mucho más que un box, nos encontramos en Pilar, clases totalmente adaptadas a tu capacidad y necesidades. Vení a descrubirlo">
+    <meta name="description" content="En esta sección podras despejarte todas las dudas.">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <!-- BS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body class="conteiner-fluid">
+<body>
 
     <!-- NavBar -->
     <header class="navbar navbar-expand-lg fondo">
@@ -54,19 +54,22 @@
 
     </header>
 
+
     
+    <h2>Formulario de contacto</h2>
+    <div class="container d-flex justify-content-center align-items-center">
+    <form>
     <div class="mb-3  borderCont">
-        <h2>Formulario de contacto</h2>
 
         <label for="exampleFormControlInput1" class="form-label apellido">Apellidos</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1 apellido" placeholder="Perez">
+        <input type="text" class="form-control" id="exampleFormControlInput1 apellido" placeholder="Perez" required>
 
         <label for="exampleFormControlInput1" class="form-label nombre">Nombres</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1 nombre" placeholder="Juan">
+        <input type="text" class="form-control" id="exampleFormControlInput1 nombre" placeholder="Juan" required>
 
         <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
         <input type="email" class="form-control" id="exampleFormControlInput1 correo electronico"
-            placeholder="Juan@example.com">
+            placeholder="Juan@example.com" required>
     </div>
     <div class="mb-3 borderCont">
         <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta</label>
@@ -75,6 +78,8 @@
         <input class="btnForm botones" type="submit">
         <input class="btnForm botones" type="reset" value="Borrar">
     </div>
+    </form>
+</div>
 
     <div><a href="https://api.whatsapp.com/send?phone=541167064264" target="_blank"><img class="logoWp"
                 src="../img/logoWhatsapp.png" alt="Logo Wsp"> </a>
